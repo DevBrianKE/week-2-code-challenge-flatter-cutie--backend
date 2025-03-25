@@ -1,7 +1,10 @@
 {
-    "voters": [
-      { "id": 1, "name": "John Doe", "voted": false },
-      { "id": 2, "name": "Jane Smith", "voted": true }
-    ]
-  }
-  
+  "users": [
+    { "id": 1, "name": "John Doe", "age": 25 },
+    { "id": 2, "name": "Jane Smith", "age": 30 }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 1200 },
+    { "id": 2, "name": "Phone", "price": 800 }
+  ]
+}
