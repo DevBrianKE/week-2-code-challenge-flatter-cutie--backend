@@ -1,7 +1,8 @@
 {
-    "voters": [
-      { "id": 1, "name": "John Doe", "voted": false },
-      { "id": 2, "name": "Jane Smith", "voted": true }
-    ]
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
-  
+}
